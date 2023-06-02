@@ -1,0 +1,315 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+}
+* input, select{
+    border: none;
+    outline: none;
+}
+body{
+    margin: 0;
+}
+header{
+    margin: 0 auto;
+    width: 1700px;
+}
+.container{
+    width: 1330px;
+    margin: 0 auto;
+}
+.profile i{
+    margin-top: 18px;
+    color: black;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.right i{
+    color: gray;
+    margin-left: 8px;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-row .left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-row .left p{
+    margin-left: 8px;
+    font-family: NeutralFace;
+    font-weight: 400;
+}
+.nav-row h3{
+    font-family: NeutralFace;
+    font-weight: 400;
+}
+.right img{
+    margin-right: 10px;
+}
+.polosa{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
+.nav-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-row2 a{
+    font-family: NeutralFace;
+    font-weight: 400;
+    color: black;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.title{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 60px;
+
+}
+.title h1{
+    font-family: NeutralFace;
+    font-weight: 800;
+    font-size: 140px;
+    margin: 0;
+}
+.title h3{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.img-monohrome{
+    display: flex;
+    margin-top: 30px;
+}
+.img-monohrome img:nth-child(2){
+    margin-left: 30px;
+}
+.cards-cat{
+    display: flex;
+    justify-content: space-between;
+}
+.title-cat h2{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+    font-size: 60pt;
+    margin: 0;
+    margin-bottom: 50px
+}
+.section-categories{
+    padding-top: 150px;
+}
+.cards p{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.section-new-collection{
+    background-image: url(../images/фонсдевушками.jpg);
+    background-size: cover;
+ 
+    margin: 0 auto;
+    width: 1700px;
+}
+.collection{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.collection h2{
+    font-family: NeutralFace;
+    font-weight: 500;
+    font-size: 80px;
+    margin: 0;
+    color: white;
+    margin-top: 120px;
+}
+.collection p{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+    font-size: 20pt;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.collection a{
+    color: black;
+    background-color: white;
+    font-family: NeutralFace;
+    width: 270px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    margin-top: 50px;
+    margin-bottom: 450px;
+}
+.title-new{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title-new h2{
+    font-family: NeutralFace;
+    margin: 0;
+    font-size: 60pt;
+}
+
+.title-new h2:nth-child(2){
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    margin-top: 10px;
+}
+.section-new-season{
+    padding-top: 100px;
+}
+.blue-red-green{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-around;
+}
+.blue-red-green p{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.green-zvezda{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+.star img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.green-card{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.green-all-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.razmer{
+    display: flex;
+    justify-content: space-between;
+}
+.tsena-promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-opisan{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.green-zvezda h2{
+    font-family: NeutralFace;
+    margin: 0;
+    font-size: 45pt;
+}
+.text-green p{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+}
+#text-kostum{
+    font-size: 17pt;
+    font-weight: 600;
+}
+#tsena{
+    font-family: Manrope-Medium;
+    font-weight: 600; 
+    font-size: 36pt;   
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.razmer p{
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    font-size: 14pt;
+}
+.razmer p:nth-child(2){
+    text-decoration: underline;
+}
+.razmer form input:nth-child(1){
+    width: 100%;
+}
+.opisanie-material p{
+    font-family: Manrope-Medium;
+    font-weight: 500;
+}
+.opisanie-material p:nth-child(1){
+    font-family: Manrope-Medium;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.section-cards-product form select{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #928f8f;
+    color: #928f8f;
+    font-family: Manrope-Medium;
+}
+.section-cards-product form input{
+    padding: 15px;
+    border: 1px solid rgb(170, 169, 169);
+    color: #3d3d3d;
+    height: 50%;
+}
+.section-cards-product form button{
+    padding: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+}
+.section-preimushestva{
+    background-color: black;  
+    margin: 0 auto;
+    width: 1700px;  
+}
+.all-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.all-block h3{
+    font-family: Manrope-Medium;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+.all-block p{
+    font-family: Manrope-Medium;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
